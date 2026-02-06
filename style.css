@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.navbar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navbar .menu ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 40px;
+}
+.navbar .menu ul a{
+    color: black;
+   text-decoration: none;
+   font-size: 20px;
+
+}
+.navbar .menu ul a:hover{
+    color: black;
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 10px;
+}
+.navbar .bnt button{
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right,orangered,black);
+}
+.tilte{
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: orangered;
+    padding: 60px;
+    width: 70%;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 15%;
+}
+.tilte .titre1{
+    font-size: 25px;
+    color: white;
+    margin: 10px;
+    align-items: center;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+span{
+    background-color: rgb(98, 58, 43);
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.tilte .titre2 p{
+    margin-top: 10px;
+    color: white;
+    background: rgba(255,2255,255 ,0.2);
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.marche{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 40px;
+    line-height: 25px;
+}
+.marche .images img{
+    width: 600px;
+    height: 250px;
+    background-image: url(media/fon.png);
+    background-repeat: no-repeat;
+    filter: none;
+    margin-right: 30px;
+
+
+}
+.marche .block h1{
+    margin-bottom: 40px;
+}
+strong{
+    color: orangered;
+}
+.marche .block p{
+    border: 1px solid orangered;
+    padding: 16px;
+    border-radius: 5px;
+
+}
+.globe{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.globe .image img{
+    width: 600px;
+    height: 350px;
+    margin-top: 20px;
+    transform: scaleX(-1);
+    background-image: url(media/fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: none;
+}
+.globe .theme {
+    margin-top: 150px;
+}
+.globe .theme p{
+    border: 1px solid orangered;
+    padding: 17px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.solution{
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    margin-top: 130px;
+     margin-left: 100px;
+    margin-right: 100px;
+
+}
+.solution .solute{
+    margin-bottom: 20px;
+    background: linear-gradient(to right, black,orangered);
+    padding: 10px;
+    margin-left: 23%;
+    margin-right: 23%;
+    border-radius: 5px;
+}
+.solution .taxe img{
+    width: 80px;
+    height: 80px;
+    margin: none;
+}
+.solution .taxe{
+    display: flex;
+   
+    
+}
+.solution .taxe ul{
+    
+    line-height: 30px;
+    background: rgba(255,255,255,0.2);
+    padding: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    align-items: baseline;
+    width: fit-content; 
+    margin: 0 auto;
+}
+.solution .clic button{
+    margin-top: 20px;
+    color: orangered;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.solution .clic button:hover{
+    color: black;
+    background-color: orangered;
+}
+.total{
+    margin-top: 70px;
+    display: flex;
+    margin-left: 8%;
+    gap: 70px;
+}
+.total .item1 ul {
+    margin-top: 30px;
+}
+.total .item1 ul li{
+    line-height: 26px;
+}
+.total .item1{
+    border:1px solid orangered;
+    padding:60px;
+    border-radius: 10px;
+    background: #fed;
+    font-size: 20px;
+}
+.total .item1 h3{
+    color: orangered;
+    font-size: 25px;
+}
+.total .item2 ul {
+    margin-top: 30px;
+}
+.total .item2 ul li{
+    line-height: 26px;
+}
+.total .item2{
+    border:1px solid orangered;
+    padding: 40px;
+    border-radius: 10px;
+    background: #fed;
+    font-size: 20px;
+}
+.total .item2 h3{
+    color: orangered;
+    font-size: 25px;
+}
+.partners{
+    margin-top: 7%;
+    margin-left: 7%;
+}
+.totaux{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 20px;
+    background-color: orangered;
+    width: 100%;
+    font-size: 20px;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+.totaux .valeur{
+    margin-left: 15%;
+    background-color: white;
+    padding: 29px;
+    margin-top: 7px;
+    border-radius: 10px;
+}
+.totaux .pourcentage{
+    background-color: white;
+    padding: 35px;
+    margin-top: 7px;
+    border-radius: 10px;
+}
+.totaux .addition{
+
+    background-color: white;
+    padding: 35px;
+    margin-top: 7px;
+    border-radius: 10px;
+}
+b{
+    color: white;
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 15px;
+    line-height: 70px;
+}
+u{
+    color: orangered;
+    text-decoration: none;
+}
+.reservation{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.reserver{
+    text-align: center;
+    margin-top: 30px;
+    justify-content: space-around;
+    margin-left: 160px;
+    display: flex;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 70px;
+}
+.reserver .reserver1{
+    line-height: 30px;
+    font-size: 20px;
+}
+.reserver .reserver1 h3{
+    line-height: 100px;
+    color: orangered;
+}
+.reserver .reserver1 p u{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    background-color: orangered;
+    gap: 20%;
+    border-radius: 5px;
+}
+.reserver.tape .reserv2 h3{
+    line-height: 20px;
+}
+.tape .reserver2 h3{
+    color: orangered;
+    padding: 20px;
+    margin-top: 26px;
+    margin-right: 340px;
+}
+.tape .reserver2 p{
+    font-weight: bold;
+}
+.tape .reserver2 p u{
+    color: orangered;
+}
+.tape1 button{
+    margin-top: 25px;
+    font-size: 20px;
+    background: linear-gradient(to right,orangered,black);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.master{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.item{
+    margin-left: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+}
+.item .item1 ul{
+    margin-top:-20px;
+}
+.item .item2 img{
+    width: 200px;
+    height: 200px;
+    margin-top: -29px;
+    align-items: center;
+    margin-right: 100px;
+}
