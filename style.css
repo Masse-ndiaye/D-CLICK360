@@ -345,3 +345,43 @@ u{
     align-items: center;
     margin-right: 100px;
 }
+.xarala{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    background-color: orangered;
+    width: 100%;
+    padding: 80px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.logo2{
+    margin-top: 10px;
+    line-height:    50px;
+}
+.ecrit{
+    margin-top: 10px;
+    line-height: 50px;
+}
+.localisation h3{
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-style: italic;
+}
+.xarala.localisation .form input{
+    margin: 5px;
+    padding: 15px;
+    border-radius:  5px;
+    border: 2px solid black;
+}
+.localisation button{
+    padding: 8px;
+    border-radius: 5px;
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-color: rgb(85, 81, 78);
+}
