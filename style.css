@@ -351,7 +351,7 @@ u{
     margin-top: 60px;
     background-color: orangered;
     width: 100%;
-    padding: 80px;
+    padding: 25px;
     color: white;
     font-size: 20px;
     border-radius: 10px;
@@ -369,11 +369,13 @@ u{
     font-size: 27px;
     font-style: italic;
 }
-.xarala.localisation .form input{
-    margin: 5px;
-    padding: 15px;
-    border-radius:  5px;
-    border: 2px solid black;
+.localisation .form input{
+    border: none;
+    margin: 10px;
+    padding: 20px;
+    font-size: 10px;
+    width: 100%;
+    border-radius: 5px;
 }
 .localisation button{
     padding: 8px;
