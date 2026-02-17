@@ -4,6 +4,9 @@
     box-sizing: border-box;
    
 }
+body{
+    margin: 10px;
+}
 .navbar{
     margin-top: 20px;
     display: flex;
@@ -76,15 +79,15 @@ span{
 .marche{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-top: 60px;
     margin-left: 40px;
     line-height: 25px;
 }
 .marche .images img{
     width: 600px;
-    height: 250px;
+    height: 300px;
     background-image: url(media/fon.png);
+      background-size: 1;
     background-repeat: no-repeat;
     filter: none;
     margin-right: 30px;
@@ -98,23 +101,27 @@ strong{
 }
 .marche .block p{
     border: 1px solid orangered;
-    padding: 16px;
+    padding: 15px;
     border-radius: 5px;
+    margin: 10px;
+    width: 100%;
 
 }
 .globe{
-    margin-top: 100px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
 }
 .globe .image img{
     width: 600px;
-    height: 350px;
+    height:400px;
     margin-top: 20px;
+    margin-left: 30px;
     transform: scaleX(-1);
     background-image: url(media/fon.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    background-size: 1 155% auto;
     filter: none;
 }
 .globe .theme {
@@ -122,6 +129,7 @@ strong{
 }
 .globe .theme p{
     border: 1px solid orangered;
+    margin-right: 10px;
     padding: 17px;
     border-radius: 5px;
     margin: 10px;
@@ -357,7 +365,7 @@ u{
 }
 .logo2{
     margin-top: 10px;
-    line-height:    50px;
+    line-height:50px;
 }
 .ecrit{
     margin-top: 10px;
@@ -385,4 +393,122 @@ u{
     margin-left: 5px;
     margin-top: 20px;
     background-color: rgb(85, 81, 78);
+}
+.temoigne{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.collaborateur{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 90px;
+    gap: 40px;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.collab1{
+     background-color: ghostwhite;
+    padding: 30px;
+    border-radius: 5px;
+    line-height: 20px;
+}
+hr{
+  border: none;          
+  height: 1px;           
+  background-color: black; 
+  margin: 20px 0; 
+}
+.collab1  img{
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+}
+.pcost{
+    display: flex;
+    gap: 10px;
+}
+.collab1 .pcost .presente p{
+    color: orangered;
+}
+ .collaborateur.collab1  a{
+    margin-top: -40px;
+}
+.collab1 .pcost{
+    margin-top: 25px;
+    top: 50px;
+} 
+.collabZ{
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px;
+    color: white;
+}
+.collabZ .collabA{
+    margin-top: 30px;
+    margin: 10px;
+}
+.collabZ .coordonne img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    color: white;
+    vertical-align: middle;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.separe{
+    justify-content: space-between;
+    display: flex;
+     margin: 20px;
+}
+.separe1{
+    justify-content: space-between;
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+
+}
+.collabe{
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.collabe h1{
+    margin-top: 20px;
+    font-style: italic;
+    margin-left: 12px;
+}
+input{
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+::placeholder{
+    font-weight: bold;
+    background:linear-gradient(to right #000,#fed)
+}
+.input button{
+    width: 170px;
+   margin-left: 14em;
+   margin-right: 10px;
+    color: white;
+    padding: 9px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background:rgb(83, 48, 37);
+}
+.cadre{
+      color: white;
+    background-color: orangered;
+    padding: 30px;
+  
+     
+}
+.cadre .footer1{
+    text-align: center;  
+
 }
